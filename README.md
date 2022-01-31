@@ -25,3 +25,9 @@ Então crie uma branch nova baseada na branch remota(que não possui o commit qu
 1. **Problema:** Adicione um commit localmente e dê push da sua branch local para a branch de nome diferente no repositório.
 Ex: se sua branch local se chama master, então envie para a branch algumacoisa .  
 **Situação:** Você começou a trabalhar numa branch local, e durante a resolução descobriu que vai precisar enviar as alterações para uma branch remota específica.
+
+1. **Problema:** Adicione um novo servidor remoto diferente do origin no seu git local, e dê um push para ele.  
+Ex: vamos supor que você criou dois repositórios, um no github e um no gitlab. Você clonou o do github para seu local.  
+Então o seu origin vai estar apontando pro repositório no github.  
+Crie localmente um outro remoto localmente com um nome diferente de origin e aponte ele para o gitlab.  
+**Situação** Num mesmo projeto você vai utilizar mais de uma plataforma.
