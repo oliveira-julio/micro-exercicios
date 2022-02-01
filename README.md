@@ -17,6 +17,10 @@ O propósito desse repositório é ser utilizado por quem ta sem ideias, pretend
 1. **Problema:** Crie dois ambientes virtuais, instale em um deles uma versão de um pacote, e instale no outro uma outra versão.  
 **Situação:** Você está lidando com mais de um projeto, e eles usam o mesmo pacote, porém em versões diferentes.
 
+1. **Problema:** Crie dois ambientes virtuais. Instale, em cada uma delas, diferentes versões da linguagem de programação que você escolheu.  
+**Situação:** Você está trabalhando em mais de um projeto, e cada projeto usa uma versão diferente da mesma linguagem.
+
+
 ### Git
 
 1. **Problema:** Crie um repositório online e clone para o seu local.  
