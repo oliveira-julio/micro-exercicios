@@ -1,7 +1,9 @@
 # micro-exercicios
 
 Uma lista exercícios pequenos e com desafios variados.  
-O propósito desse repositório é ser utilizado por quem ta sem ideias, pretende aprender algo novo ou quer obter experiência de situações possivelmente reais.
+O propósito desse repositório é ser utilizado por quem ta sem ideias, pretende aprender algo novo ou quer obter experiência de situações possivelmente reais.  
+Muitos dos exercícios tem como objetivo fazer que ativamente erros sejam cometidos, mitigados, entendidos e resolvidos.  
+Abrace os erros, aprenda com eles.  
 
 
 ## Ferramental
