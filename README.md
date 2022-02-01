@@ -47,7 +47,11 @@ Crie localmente um outro remoto localmente com um nome diferente de origin e apo
 
 ### Servidores
 
-1. **Problema:** Escreva um servidor http utilizando a linguagem/aplicação/framework de sua escolha.  
+1. **Problema:** Escreva e rode um servidor http utilizando a linguagem/aplicação/framework de sua escolha.  
 O retorno dela pode ser um simples hello world.  
 **Situação:** Você esta iniciando um projeto de um novo servidor http.
+
+1. **Problema:** Rode o mesmo servidor em portas diferentes ao mesmo tempo.  
+Ex: rode um na 5000 e outro na 3000.  
+**Situação:** Você precisa que duas instâncias do servidor sejam executadas ao mesmo tempo.
 
