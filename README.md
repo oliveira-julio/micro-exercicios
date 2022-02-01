@@ -9,6 +9,14 @@ O propósito desse repositório é ser utilizado por quem ta sem ideias, pretend
 
 ## Ferramental
 
+### Ambientes Virtuais
+
+1. **Problema:** Crie um ambiente virtual para a linguagem de programação da sua escolha.  
+**Situação:** Você vai iniciar um projeto e precisa isolar os pacotes que vai instalar, dos pacotes instalados globalmente.
+
+1. **Problema:** Crie dois ambientes virtuais, instale em um deles uma versão de um pacote, e instale no outro uma outra versão.  
+**Situação:** Você está lidando com mais de um projeto, e eles usam o mesmo pacote, porém em versões diferentes.
+
 ### Git
 
 1. **Problema:** Crie um repositório online e clone para o seu local.  
