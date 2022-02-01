@@ -53,7 +53,14 @@ Crie localmente um outro remoto localmente com um nome diferente de origin e apo
 O retorno dela pode ser um simples hello world.  
 **Situação:** Você esta iniciando um projeto de um novo servidor http.
 
-1. **Problema:** Rode o mesmo servidor em portas diferentes ao mesmo tempo.  
+1. **Problema:** Rode, ao mesmo tempo, o mesmo servidor em portas diferentes.  
 Ex: rode um na 5000 e outro na 3000.  
 **Situação:** Você precisa que duas instâncias do servidor sejam executadas ao mesmo tempo.
+
+1. **Problema:** Rode, um de cada vez, o servidor num dos seguintes hosts: 0.0.0.0, localhost e 127.0.0.1.  
+Pesquise sobre o assunto host. Depois teste e experimente quem na rede pode acessar o servidor.  
+Isso é importante para configurar corretamente o servidor e evitar que seja acessado por alguém indevidamente.  
+**Dica:** Se seu computador e celular estiverem no mesmo wifi, tente acessar o servidor do seu computador pelo celular.  
+**Situação:** Você esta configurando um servidor para que ele funcione corretamente.
+
 
