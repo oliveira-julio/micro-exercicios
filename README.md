@@ -4,9 +4,6 @@ Uma lista exercícios pequenos e com desafios variados.
 O propósito desse repositório é ser utilizado por quem ta sem ideias, pretende aprender algo novo ou quer obter experiência de situações possivelmente reais.
 
 
-
-## Backend
-
 ## Ferramental
 
 ### Ambientes Virtuais
@@ -43,3 +40,14 @@ Ex: vamos supor que você criou dois repositórios, um no github e um no gitlab.
 Então o seu origin vai estar apontando pro repositório no github.  
 Crie localmente um outro remoto localmente com um nome diferente de origin e aponte ele para o gitlab.  
 **Situação** Num mesmo projeto você vai utilizar mais de uma plataforma.
+
+
+
+## Backend
+
+### Servidores
+
+1. **Problema:** Escreva um servidor http utilizando a linguagem/aplicação/framework de sua escolha.  
+O retorno dela pode ser um simples hello world.  
+**Situação:** Você esta iniciando um projeto de um novo servidor http.
+
