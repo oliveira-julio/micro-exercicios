@@ -53,6 +53,9 @@ Crie localmente um outro remoto localmente com um nome diferente de origin e apo
 O retorno dela pode ser um simples hello world.  
 **Situação:** Você esta iniciando um projeto de um novo servidor http.
 
+1. **Problema:** Tente rodar, ao mesmo tempo, duas instâncias do servidor na mesma porta.  
+Tente entender o motivo de não funcionar.
+
 1. **Problema:** Rode, ao mesmo tempo, o mesmo servidor em portas diferentes.  
 Ex: rode um na 5000 e outro na 3000.  
 **Situação:** Você precisa que duas instâncias do servidor sejam executadas ao mesmo tempo.
