@@ -95,3 +95,10 @@ Crie uma rota que retorne uma mensagem contendo o valor de uma variável de ambi
 A variável deve ser criada por você.  
 Variáveis de ambiente são setados diretamente do seu computador, e não no seu programa.  
 **Situação:** Uma informação que você precisa está salva como variável de ambiente no computador.
+
+1. **Problema:** Escreva uma aplicação que se conecte num banco de dados. Não precisa fazer nenhuma operação, apenas a conexão.  
+Primeiro, rode a aplicação escrevendo a URI do banco diretamente no código.  
+Segundo, remova a URI direto do código e  rode a aplicação lendo uma variável de ambiente que tem a URI salva.  
+**Questionamento:** Por que utilizar uma variável de ambiente no lugar de escrever diretamente?  
+**Dica:** Imagine que você vai compartilhar o código com outra pessoa.
+
