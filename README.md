@@ -66,4 +66,11 @@ Isso é importante para configurar corretamente o servidor e evitar que seja ace
 **Dica:** Se seu computador e celular estiverem no mesmo wifi, tente acessar o servidor do seu computador pelo celular.  
 **Situação:** Você esta configurando um servidor para que ele funcione corretamente.
 
+### Cache
+
+1. **Problema:** Escreva um servidor http utilizando a linguagem/aplicação/framework de sua escolha.  
+Crie uma rota que receba uma número e retorne o dobro dele. Configure para que essa rota seja cacheada.  
+**Dica:** Para ficar fácil de visualizar a diferença entre o com e sem o cache, configure um sleep nessa rota.  
+**Situação:** Você quer otimizar o tempo da requisição e utilização dos recursos do servidor utilizando cache.
+
 
