@@ -87,3 +87,11 @@ O método GET da rota possui cache.
 Sempre que a rota receber um POST, você deve revogar/expirar/deletar o cache do metódo GET da rota.  
 **Situação:** Você tem que expirar o cache após fazer alguma alteração. Para que não retorne um valor desatualizado.
 
+
+### Variáveis de ambiente e secrets
+
+1. **Problema:** Escreva um servidor http utilizando a linguagem/aplicação/framework de sua escolha.  
+Crie uma rota que retorne uma mensagem contendo o valor de uma variável de ambiente.  
+A variável deve ser criada por você.  
+Variáveis de ambiente são setados diretamente do seu computador, e não no seu programa.  
+**Situação:** Uma informação que você precisa está salva como variável de ambiente no computador.
