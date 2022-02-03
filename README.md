@@ -70,7 +70,14 @@ Isso é importante para configurar corretamente o servidor e evitar que seja ace
 
 1. **Problema:** Escreva um servidor http utilizando a linguagem/aplicação/framework de sua escolha.  
 Crie uma rota que receba uma número e retorne o dobro dele. Configure para que essa rota seja cacheada.  
+Para o cache utilize uma ferramenta como o redis ou memcached.
 **Dica:** Para ficar fácil de visualizar a diferença entre o com e sem o cache, configure um sleep nessa rota.  
 **Situação:** Você quer otimizar o tempo da requisição e utilização dos recursos do servidor utilizando cache.
+
+1. **Problema:** Em um servidor http que possui uma rota com cache, configure o 'time to live'/expire do cache.  
+**Dica:** Para fins de desenvolvimento, coloque para o cache expirar com um tempo relativamente curto, como 1 minuto.  
+**Situação:** Você quer que cache expire para forçar atualização ou para evitar bugs.
+
+
 
 
