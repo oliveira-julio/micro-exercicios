@@ -69,8 +69,9 @@ Isso é importante para configurar corretamente o servidor e evitar que seja ace
 ### Cache
 
 1. **Problema:** Escreva um servidor http utilizando a linguagem/aplicação/framework de sua escolha.  
-Crie uma rota que receba uma número e retorne o dobro dele. Configure para que essa rota seja cacheada.  
-Para o cache utilize uma ferramenta como o redis ou memcached.
+Crie uma rota, com método GET, que receba um número pelo path/caminho e retorne o dobro dele.  
+Configure para que essa rota seja cacheada.  
+Para o cache utilize uma ferramenta como o redis ou memcached.  
 **Dica:** Para ficar fácil de visualizar a diferença entre o com e sem o cache, configure um sleep nessa rota.  
 **Situação:** Você quer otimizar o tempo da requisição e utilização dos recursos do servidor utilizando cache.
 
@@ -78,6 +79,11 @@ Para o cache utilize uma ferramenta como o redis ou memcached.
 **Dica:** Para fins de desenvolvimento, coloque para o cache expirar com um tempo relativamente curto, como 1 minuto.  
 **Situação:** Você quer que cache expire para forçar atualização ou para evitar bugs.
 
-
-
+1. **Problema:** Um servidor http possui uma rota com metódos POST e GET.  
+O servidor guarda numa variável o valor de um número que inicia em 0.  
+No caso de POST, deve se passar um número que substitui o valor da variável.  
+No caso do GET, retorne o dobro do valor na variável.  
+O método GET da rota possui cache.  
+Sempre que a rota receber um POST, você deve revogar/expirar/deletar o cache do metódo GET da rota.  
+**Situação:** Você tem que expirar o cache após fazer alguma alteração. Para que não retorne um valor desatualizado.
 
